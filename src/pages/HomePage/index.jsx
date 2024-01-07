@@ -1,9 +1,10 @@
+import { Header } from '../../components/Header';
 import './style.css';
 
 export const HomePage = () => {
   return (
     <div className="container">
-      <header></header>
+      <Header />
       <main></main>
       <footer>
         <p>Czechitas, Digitální akademie: Web</p>

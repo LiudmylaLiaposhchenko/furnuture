@@ -1,0 +1,28 @@
+.detail {
+  height: calc(100vh - 88px);
+  background-color: white;
+  display: flex;
+  padding: 50px;
+}
+
+.detail-info {
+  display: flex;
+  flex-direction: column;
+}
+
+.detail-image {
+  max-width: 500px;
+  margin-right: 30px;
+}
+
+.detail-title {
+  font-size: 1.5rem;
+}
+
+button {
+  padding: 20px;
+  background-color: rgb(56, 55, 55);
+  color: white;
+  font-size: 1.2rem;
+  margin-top: 20px;
+}

@@ -1,0 +1,15 @@
+.card {
+  margin: 10px;
+  flex-basis: 25%;
+  padding-bottom: 20px;
+  border: 1px solid transparent;
+}
+
+.title {
+  color: black;
+  margin: 3px;
+}
+
+.card--select {
+  border: 2px dotted gold;
+}

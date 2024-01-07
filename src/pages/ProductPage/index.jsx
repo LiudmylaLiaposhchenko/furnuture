@@ -6,7 +6,7 @@ import { useEffect, useState } from 'react';
 
 export const ProductPage = () => {
   const [product, setProduct] = useState(null);
-  let { id } = useParams();
+  const { id } = useParams();
 
   useEffect(() => {
     (async () => {

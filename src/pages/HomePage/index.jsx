@@ -1,14 +1,12 @@
 import { Header } from '../../components/Header';
+import { Main } from '../../components/Main';
 import './style.css';
 
 export const HomePage = () => {
   return (
     <div className="container">
       <Header />
-      <main></main>
-      <footer>
-        <p>Czechitas, Digitální akademie: Web</p>
-      </footer>
+      <Main />
     </div>
   );
 };

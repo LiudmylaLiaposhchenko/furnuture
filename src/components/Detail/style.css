@@ -2,6 +2,7 @@
   height: calc(100vh - 88px);
   background-color: white;
   display: flex;
+  align-items: flex-start;
   padding: 50px;
 }
 
@@ -11,7 +12,8 @@
 }
 
 .detail-image {
-  max-width: 500px;
+  width: 40%;
+  height: auto;
   margin-right: 30px;
 }
 

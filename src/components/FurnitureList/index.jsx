@@ -4,7 +4,6 @@ import './style.css';
 
 export const FurnitureList = () => {
   const [furniture, setFurniture] = useState([]);
-  const [selectedFurniture, setSelectedFurniture] = useState(null);
 
   useEffect(() => {
     (async () => {
@@ -20,14 +19,7 @@ export const FurnitureList = () => {
   ) : (
     <div className="furniture-list">
       {furniture.map((f) => (
-        <Furniture
-          id={f.id}
-          key={f.id}
-          title={f.name}
-          src={f.image}
-          onSelect={() => setSelectedFurniture(f)}
-          isSelected={selectedFurniture ? f.id === selectedFurniture.id : false}
-        />
+        <Furniture id={f.id} key={f.id} title={f.name} src={f.image} />
       ))}
     </div>
   );
